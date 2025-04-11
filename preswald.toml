@@ -1,0 +1,22 @@
+[project]
+title = "EcoChronicles" 
+version = "0.1.0"
+port = 8501
+slug = "ecochronicles"
+entrypoint = "hello.py"  
+
+[branding]
+name = "EcoChronicles"
+logo = "image/g.png"        
+favicon = "favicon.ico"
+
+primaryColor = "#F89613"
+
+[data.sample_csv]
+type = "csv"
+path = "data/global_air_pollution_data_cleaned.csv"
+
+
+[logging]
+level = "INFO"  
+format = "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
